@@ -1,0 +1,358 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+/* Base start */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.color-light-green {
+    color: #D9FF9E;
+}
+
+.is-brand {
+    background-color: #7EC909;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0;
+    font-size: 1.25rem;
+    border-radius: 0.9375rem;
+    box-shadow: 0px 2px 9px 0px rgba(131, 201, 22, 0.78);
+    transition: all .3s;
+}
+
+.is-brand:hover {
+    background-color: #00abeb;
+    box-shadow: none;
+    color: #fff;
+}
+
+.fill-green {
+    color: #038900;
+}
+
+.fill-gray {
+    color: #CBCBCB;
+}
+
+/* Base end */
+
+/* Header start */
+.header-area {
+    background: #00abeb url('../images/bg_pattern.png');
+    padding: .6rem 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-top: 0.625rem;
+}
+
+.header-container div:last-child {
+    color: #fff;
+    font-weight: 600;
+}
+/* Header end */
+
+/* Hero start */
+.hero-area {
+    background: linear-gradient(to right, rgba(0, 121, 183, 0.2), rgba(0, 121, 183, 0.3)), url('../images/visual.jpg') center center / cover no-repeat;
+    color: #fff;
+    height: 60vh;
+    text-align: center;
+}
+
+.hero-content h3 {
+    padding-top: 1.6rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-content p:nth-of-type(1) {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1.6rem;
+}
+
+.hero-content p:nth-of-type(2) {
+    max-width: 50%;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+/* Hero end */
+
+/* Service start */
+.service-area {
+    margin-top: -70px;
+}
+
+.single-card {
+    position: relative;
+    background-color: #fff;
+    box-shadow:  0px 7px 14px 0px rgba(0,0,0,0.26);
+    padding: 1.875rem;
+    border-radius: 0.3125rem;
+    text-align: center;
+}
+
+.single-card img {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 80px;
+    border-radius: inherit;
+}
+
+.single-card .link-title {
+    margin-top: 2rem;
+    color: #01A5B8;
+    transition: all .3s;
+    font-weight: bold;
+    font-size: 1.07rem;
+}
+
+.single-card .link-title:hover {
+    color: #ed1c24;
+}
+
+.single-card .content p {
+    font-weight: bold;
+    font-size: 1.07rem;
+}
+
+.single-card .review-stars {
+    margin-bottom: 1rem;
+}
+
+.single-card .star-fill {
+    color: #FFC601;
+}
+
+.is-big {
+    background: #dcf8ff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: -60px;
+    padding: 10px 0 50px 0;
+    position: absolute;
+    width: 367px;
+    border-radius: 5px 5px 0 0;
+    color: #009cc0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* Service end */
+
+/* Overview start */
+.overview-area {
+    padding: 2rem 0;
+}
+
+.overview-card {
+    border-radius: 0.3125rem;
+    box-shadow: 0px 1px 4px 0px rgba( 0, 0, 1, 0.4 );
+    display: flex;
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.overview-details {
+    margin-left: 22rem;
+}
+
+.overview-link {
+    color: #00a4aa;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.overview-card p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.overview-card img {
+    height: 230px;
+    position: absolute;
+    top: 20px;
+    left: -30px;
+    border-radius: 0.3125rem;
+}
+
+.overview-card .is-brand {
+    position: absolute;
+    bottom: 20px;
+    left: 62px;
+}
+
+.ribbon {
+    background: #7EC909;
+    color: #fff;
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    right: 807px;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ribbon:after,
+.ribbon:before {
+    content: "";
+    position: absolute;
+    border-top: 20px solid #7EC909;
+    height: 0;
+    width: 0;
+    top: 100%;
+}
+
+.ribbon:before {
+    border-right: 50px solid transparent;
+    left: 0px;
+}
+
+.ribbon:after {
+    border-left: 50px solid transparent;
+    right: 0px;
+}
+
+.overview-content h3 {
+    margin-bottom: 1.6rem;
+    font-weight: bold;
+    color: #455455;
+    text-align: center;
+}
+
+.inside-link {
+    color: #000;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #000; 
+    text-decoration-color: #000;
+}
+
+.highlight-overview {
+    background-color: #FCF9CD;
+    padding: 1rem;
+    border-radius: 0.3125rem;
+    margin-top: 1rem;
+}
+
+.highlight-overview ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.highlight-overview ul li {
+    margin-right: 1rem;
+    font-size: .9rem;
+}
+
+.highlight-overview ul li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+/* Overview end */
+
+/* About start */
+.about-content {
+    text-align: center;
+}
+
+.about-content div h3 {
+    font-weight: bold;
+    color: #455455;
+}
+
+.about-content div p {
+    margin-bottom: 1rem;
+}
+/* About end */
+
+/* Footer start */
+.footer-area {
+    background: #00abeb url('../images/bg_pattern.png');
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container div:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo1 {
+    height: 60px;
+}
+
+.footer-logo2 {
+    height: 40px;
+}
+
+.footer-container div:nth-of-type(2) {
+    text-align: right;
+}
+
+.footer-links ul {
+    margin-bottom: 1rem;
+}
+
+.footer-links li {
+    display: inline-block;
+}
+
+.footer-links ul li a {
+    color: inherit;
+    text-align: right;
+    margin-left: 10px;
+    font-size: .9rem;
+    transition: all .3s;
+    padding: .2rem .3rem;
+    border-radius: .2rem;
+}
+
+.footer-links ul li a:hover {
+    background-color: rgba( 0, 0, 0, 0.3);
+}
+
+.copy {
+    color: #9bdef7;
+}
+/* Footer end */

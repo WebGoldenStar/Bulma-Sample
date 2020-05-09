@@ -1,0 +1,123 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .logo img {
+        height: 40px;
+    }
+
+    .header-container {
+        flex-direction: column;
+    }
+
+    .hero-content h3 {
+        font-size: 1.7rem;
+    }
+
+    .hero-content p:nth-of-type(1) {
+        font-size: 1.3rem;
+    }
+
+    .hero-content p:nth-of-type(2) {
+        max-width: 90%;
+        font-size: .9rem;
+    }
+
+    .footer-area {
+        padding: 2rem 0;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-container div:nth-of-type(1) {
+        order: 1;
+        margin-top: 1.6rem;
+    }
+
+    .footer-container div:nth-of-type(2) {
+        text-align: center;
+    }
+
+    .footer-links ul li a {
+        margin-right: 0;
+    }
+
+    h3.title {
+        font-size: 1.4rem;
+    }
+
+    .about-content {
+        padding: 0 1rem;
+    }
+
+    .about-content p {
+        font-size: .9rem;
+    }
+
+    .overview-card img {
+        height: 180px;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .overview-details {
+        margin-left: 0;
+        margin-top: 12rem;
+    }
+
+    .ribbon {
+        top: -20px;
+        right: 59px;
+    }
+
+    .overview-card .is-brand {
+        top: 150px;
+        left: 85px;
+    }
+
+    .service-area {
+        margin-top: 0;
+    }
+
+    .service-area .column:nth-of-type(2) {
+        margin-top: 4rem;
+    }
+
+    .service-area .column:nth-of-type(3) {
+        margin-top: 2rem;
+    }
+
+    .single-card {
+        margin-top: 8rem 0;
+    }
+
+    .is-big {
+        width: 320px;
+    }
+
+    .break {
+        display: none;
+    }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+}
